@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: 'Roboto';
+    font-weight: 700;
+    color: white;
+    min-height: 100%;
+}
+
+button {
+    padding: 20px;
+    background-color: rgb(46, 204, 113);
+    border: 3px solid white;
+    border-radius: 5px;
+    font-weight: 500;
+    color: white;
+    font-size: 18px;
+}
+
+hr {
+    margin: 15px ;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+html {
+    position: relative;
+}

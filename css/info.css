@@ -1,0 +1,132 @@
+.info {
+    background-color: rgb(46, 204, 113);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 23px;
+    max-width: 1300px;
+    border-radius: 10px;
+}
+
+.container_info {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.info * {
+    text-align: center;
+}
+
+.container_cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.info h2 {
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: rgb(33, 145, 79);
+}
+
+.nodes h1 {
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.node {
+   background-color: rgb(40, 173, 96);
+   margin: 20px;
+   display: flex;
+   flex-direction: column;
+   border-radius: 20px;
+   padding-bottom: 20px;
+}
+
+.node * {
+    flex-wrap: wrap;
+}
+
+.container_aspecs {
+    background-color: rgb(33, 145, 79);
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nodes .description {
+    background-color: rgb(33, 145, 79);
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+
+}
+
+.node h2 {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.container_cards h3 {
+    font-size: 24px;
+}
+
+.container_cards p {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.card {
+    display: flex;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(40, 173, 96);
+    border-radius: 20px;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.description {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.description .text {
+    max-width: 50%;
+    min-width: 250px;
+    margin: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.description text, .description .images {
+    flex-grow: 1;
+}
+
+.description .images img {
+    border-radius: 20px;
+    margin: 10px;
+}
+
+@media screen and (max-width: 452px) {
+    .description .images img {
+        width: 270px;
+        height: 210px;
+    }
+
+}
